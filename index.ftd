@@ -1,0 +1,40 @@
+-- import: apneduniya.github.io/quote-fastn/components/quote as quote
+
+
+;;  M A I N   P A G E 
+
+-- ftd.row:
+id: main-page
+align-content: center
+height: fill-container
+width: fill-container
+;; background.solid: #222831
+
+;; Background image of main page (if you want to give image as background of the page you can otherwise you can comment this)
+-- ftd.image:
+fit: cover
+;; src: https://w0.peakpx.com/wallpaper/228/775/HD-wallpaper-starry-sky-glow-art-dark-lake-reflection.jpg
+src: $assets.files.assets.images.bg.png
+anchor: window
+top.px: 0
+left.px: 0
+height: fill-container
+
+-- ftd.column:
+align-self: center
+
+-- quote.wrapper:
+;; Write 5-10 lines of quote here related to coding
+title: "Coding is the art of turning ideas into reality. It's a craft that requires patience, persistence, and a willingness to learn. With each line of code, we have the power to create something new, something that can change the world. But with that power comes great responsibility. We must strive to write code that is efficient, secure, and accessible to all. And we must never forget that behind every line of code is a human being, with hopes, dreams, and a desire to make a difference."
+avatar-src: https://avatars.githubusercontent.com/u/113763427
+person-name: Adarsh Gupta
+person-description: Full Stack Developer
+background-color: #1d222a
+color: #eeeeee
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+;;  E N D   M A I N   P A G E
+
